@@ -1,0 +1,76 @@
+#divhead{
+background-color:black;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border:1px solid black;
+margin-top:10px;
+}
+#divecran{
+color:black;
+background-color:black;
+border-radius:2px;
+border:1px solid black;
+margin :6px;
+margin-top :0px;
+padding-bottom :10px;
+}
+#divcorp{
+background-color:whitesmoke;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border:1px solid black;
+padding-bottom :15px;
+}
+.separateur{
+padding-top :3px;
+margin-top:0px;
+margin-bottom :4px;
+}
+.btn{
+box-shadow:5px 5px black ;
+}
+#on{
+margin-top:10px;
+}
+#diviser,#zero,#plus{
+margin-left :13px;
+}
+#fonction,#effacer{
+background-color:orange;
+}
+#shift,#fonction,#reset,#ln,#exp,#tan,#cos,#sin,#on,#racine,#effacer{
+border-radius:20px;
+}
+.div1{
+color:black;
+}
+h6{
+color:gray;
+font-size:.5em;
+}
+.rond{
+background-color: ;
+box-sadow :5px 5px silver;
+padding:0px;
+margin-left:100px;
+border:0px solid black;
+border-radius:60px;
+}
+
+#shift{
+margin-left:4x;
+margin-top:30px;
+}
+#fonction{
+margin-top:40px;
+margin-left:0px;
+}
+#effacer{
+margin-left :40px;
+}
+#shift,#fonction,#reset,#on{
+box-shadow:2px 2px black ;
+}
+#egale{
+margin-left :5px;
+}

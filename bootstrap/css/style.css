@@ -1,0 +1,395 @@
+/*styles des elements généreaux*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: arial ,'time new roman',sans-serif;
+   
+    background:#fff;
+    
+}
+h5{
+    font-weight: bold;
+}
+.modal-info{
+    color: #fff;
+    background:rgba(0,0,0,0.9);
+}
+.span-phone{
+    font-size: 1.4em;
+}
+.div-content a {
+    color: currentColor;
+}
+.fa-camera{
+    position: absolute;
+    top: 5px;
+    left: 210px;
+    background:gray;
+    opacity: 0.7;
+    padding: 5px;
+    border-radius: 25px;
+}
+/*menu de navigation*/
+.navbar-inverse{
+	border:1px solid transparent;
+	height:75px;
+	background: rgb(8, 64, 110);
+    border-radius: 1px ;
+}
+.navbar-inverse a{
+
+	text-decoration: none;
+}
+.navbar-inverse h1{
+	font-size: 2em;
+	color: #fff;
+	font-weight: bold;
+	
+}
+.navbar-inverse ul{
+	margin-left:340px;
+}
+.navbar-inverse ul li{
+	margin:5px 0 5px 0;
+	color: #000;
+	font-size: 1.2em;
+	padding: 6px 0 6px 0;
+	transition:all 0.5s ease-in-out 0s;
+}
+
+.navbar-inverse ul li:hover{
+	border-radius: 3px;
+	background:rgb(3, 84, 138);
+	
+}
+.navbar-inverse button{
+    margin-top: 20px;
+    transition: all .5s ease-in-out 0s;
+}
+.navbar-inverse button:hover{
+    background:rgb(3, 84, 138);
+    color: #fff;
+}
+/*section image*/
+.main-image{
+	
+	height:700px;
+    
+    background: url('../../images/main4.jpg') center center;
+    background-size: cover;
+}
+.overlay{
+  width:100%;
+    height: 700px;
+    background:rgba(0,0,0,0.7);
+}
+.overlay .text{
+    position: absolute;
+    top:20%;
+    left:40%;
+   text-align: center;
+    width:auto;
+    
+    
+}
+.overlay .text span{
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.overlay .text1{
+    font-size:50px;
+    font-weight:10;
+    letter-spacing:5px;
+    margin-bottom: 20px;
+    position: relative;
+    background:rgba(139, 133, 133, 0.199);
+    animation: text 4s 1;
+}.overlay .text2{
+    font-size: 35px;
+}
+@keyframes text {
+    0%{
+       
+        color: black;
+        margin-bottom: -40px;
+    }
+    35%{
+       
+        letter-spacing: 35px;
+        margin-bottom: -40px;
+    }
+    85%{
+       
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+.overlay form{
+    border-radius: 1px;
+    text-align: center;
+    margin: 0 auto;
+    width:auto;
+    position: absolute;
+    top: 70%;
+    left:40%;
+}
+.overlay form input{
+    font-size: 1em;
+    width: 270px;
+    height: 56px;
+    border-color:transparent;
+    background: rgba(255,255,255);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size:1.2em;
+}
+.overlay form button{
+    width: 110px;
+    height: 60px;
+    margin-left: -4px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px ;
+   background: rgb(8, 64, 110);
+    border-color: transparent;
+    color: #fff;
+}
+.mini-map{
+    height: 150px;
+}
+.menu-hotel{
+   width:auto;
+    box-shadow:2px 2px 2px 2px#000;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.menu-hotel button{
+    border-radius: 0px;
+    margin-left: -4px;
+    background: green;
+    color: #fff;
+}
+.menu-hotel button:hover{
+    background: green;
+    color: #fff;
+}
+.map{
+    margin-top: -6px;
+    border-radius:1px;
+    border: 1px solid white;
+    height:100px;
+    margin-bottom: 1px;
+   
+}
+.map-overlay{
+    
+    background: #000;
+    height:50px;
+    background: rgb(8, 64, 110);
+    border-radius: 1px;
+    text-align: center;
+    color: #fff;
+   
+}
+.map-overlay span{
+    margin-top:20px;
+}
+.modal{
+margin-top:40px;
+}
+.modal-dialog{
+
+    width:100%;
+    height:100%;
+}
+iframe{
+    width:100%;
+    height:400px;
+}
+.div-content{
+    position: relative;
+    width: 260px;
+    border: 1px solid #fff ;
+    margin-right:3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.bar-description{
+    background: rgba(0, 0, 0, 0.568);
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:30px;
+    overflow: hidden;
+    text-align: center;
+   color: #fff;
+   text-align: center;
+    margin-left: 2px;
+    margin-right: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  
+}
+
+#bar-description-1.active{
+    height:200px;
+
+}
+#bar-description-2.active{
+    height:200px;
+
+}
+#bar-description-3.active{
+    height:200px;
+
+}
+#bar-description-4.active{
+    height:200px;
+
+}
+#bar-description-5.active{
+    height:200px;
+
+}
+#bar-description-6.active{
+    height:200px;
+
+}
+#bar-description-7.active{
+    height:200px;
+
+}
+#bar-description-8.active{
+    height:200px;
+
+}
+#bar-description-9.active{
+    height:200px;
+
+}
+#bar-description-9.active{
+    height:200px;
+
+}
+#bar-description-10.active{
+    height:200px;
+
+}
+#bar-description-11.active{
+    height:200px;
+
+}
+.bar-description p{
+    margin-top:5px;
+    font-size:16px
+}
+
+
+img{
+   width:100%;
+    height: 240px;
+
+}
+
+.badge{
+    padding:5px 5px;
+    font-size: 1.1em;
+    background: green;
+}
+
+.fa-chevron-circle-up{
+    position: absolute;
+    top:0px;
+    left:80%;
+    color: #fff;
+    cursor: pointer;
+    color: silver;
+    
+}
+.glyphicon-star{
+    color: gold;
+}
+#fa-1{
+    transition: transform ease-in-out .5s;
+}
+#fa-1.active{
+     transform: rotate(180deg); 
+}
+#fa-2{
+    transition: transform ease-in-out .5s;
+}
+#fa-2.active{
+     transform: rotate(180deg); 
+}
+#fa-3{
+    transition: transform ease-in-out .5s;
+}
+#fa-3.active{
+     transform: rotate(180deg); 
+}
+#fa-4{
+    transition: transform ease-in-out .5s;
+}
+#fa-4.active{
+     transform: rotate(180deg); 
+}
+#fa-5{
+    transition: transform ease-in-out .5s;
+}
+#fa-5.active{
+     transform: rotate(180deg); 
+}
+#fa-6{
+    transition: transform ease-in-out .5s;
+}
+#fa-6.active{
+     transform: rotate(180deg); 
+}
+#fa-7{
+    transition: transform ease-in-out .5s;
+}
+#fa-7.active{
+     transform: rotate(180deg); 
+}
+#fa-8{
+    transition: transform ease-in-out .5s;
+}
+#fa-8.active{
+     transform: rotate(180deg); 
+}
+#fa-9{
+    transition: transform ease-in-out .5s;
+}
+#fa-9.active{
+     transform: rotate(180deg); 
+}
+#fa-10{
+    transition: transform ease-in-out .5s;
+}
+#fa-10.active{
+     transform: rotate(180deg); 
+}
+#fa-11{
+    transition: transform ease-in-out .5s;
+}
+#fa-11.active{
+     transform: rotate(180deg); 
+}
+footer{
+    padding-top:90px;
+    background: rgb(20, 20, 20);
+    height:400px;
+    color:silver;
+}
+
+footer p{
+    text-align: center
+}
+footer .copy{
+    margin-top:180px;
+}
